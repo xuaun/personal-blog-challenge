@@ -41,9 +41,9 @@ function highlightCurrentPage() {
   const navLinks = document.querySelectorAll(".header__item-link");
   const currentUrl = window.location.pathname.split("/").pop();
 
-  navLinks.forEach((link) => {
+  navLinks.forEach((link, index) => {
     const linkPage = link.getAttribute("href").split("/").pop();
-    if (linkPage === currentUrl) {
+    if (linkPage === currentUrl || (index === 0 && currentUrl === "")) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
