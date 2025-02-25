@@ -43,7 +43,11 @@ function highlightCurrentPage() {
 
   navLinks.forEach((link, index) => {
     const linkPage = link.getAttribute("href").split("/").pop();
-    if (linkPage === currentUrl || (index === 0 && currentUrl === "")) {
+    if (
+      linkPage === currentUrl ||
+      (index === 0 &&
+        (currentUrl === "" || currentUrl === "personal-blog-challenge"))
+    ) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
