@@ -1,0 +1,169 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  /* NEUTRAL */
+  --neutral-900: hsl(20, 6%, 10%);
+  --neutral-800: hsl(20, 5%, 12%);
+  --neutral-700: hsl(26, 7%, 19%);
+  --neutral-600: hsl(30, 3%, 28%);
+  --neutral-400: hsl(0, 1%, 75%);
+  --neutral-300: hsl(30, 6%, 86%);
+  --neutral-200: hsl(30, 11%, 93%);
+  --neutral-100: hsl(30, 33%, 98%);
+  --neutral-000: hsl(0, 0%, 100%);
+  /* BLUE */
+  --blue-900: hsl(206, 95%, 15%);
+  --blue-800: hsl(206, 45%, 55%);
+  --blue-700: hsl(206, 61%, 66%);
+  --blue-500: hsl(206, 95%, 78%);
+  --blue-200: hsl(207, 94%, 94%);
+  /* GREEN */
+  --green-900: hsl(133, 38%, 12%);
+  --green-700: hsl(142, 100%, 26%);
+  --green-500: hsl(133, 38%, 72%);
+  --green-200: hsl(125, 38%, 94%);
+  /* YELLOW */
+  --yellow-900: hsl(38, 92%, 15%);
+  --yellow-700: hsl(38, 95%, 47%);
+  --yellow-500: hsl(39, 93%, 73%);
+  --yellow-200: hsl(40, 100%, 94%);
+  /* RED */
+  --red-600: hsl(4, 74%, 49%);
+  --red-400: hsl(4, 86%, 58%);
+
+  /* TYPOGRAPHY DS */
+  /* TEXT PRESET 1 */
+  --text-1-family: "DM Sans", sans-serif;
+  --text-1-size: 4rem;
+  --text-1-weight: 800;
+  --text-1-height: 130%;
+  --text-1-spacing: -0.1rem;
+  /* TEXT PRESET 2 */
+  --text-2-family: "DM Sans", sans-serif;
+  --text-2-size: 3.2rem;
+  --text-2-weight: 800;
+  --text-2-height: 130%;
+  --text-2-spacing: -0.05rem;
+  /* TEXT PRESET 3 */
+  --text-3-family: "DM Sans", sans-serif;
+  --text-3-size: 2.8rem;
+  --text-3-weight: 700;
+  --text-3-height: 130%;
+  --text-3-spacing: -0.05rem;
+  /* TEXT PRESET 4 */
+  --text-4-family: "DM Sans", sans-serif;
+  --text-4-size: 2.4rem;
+  --text-4-weight: 600;
+  --text-4-height: 130%;
+  --text-4-spacing: -0.05rem;
+  /* TEXT PRESET 5 */
+  --text-5-family: "DM Sans", sans-serif;
+  --text-5-size: 2rem;
+  --text-5-weight: 600;
+  --text-5-height: 130%;
+  --text-5-spacing: -0.05rem;
+  /* TEXT PRESET 6 */
+  --text-6-family: "DM Sans", sans-serif;
+  --text-6-size: 1.8rem;
+  --text-6-weight: 500;
+  --text-6-height: 150%;
+  --text-6-spacing: -0.05rem;
+  /* TEXT PRESET 7 */
+  --text-7-family: "DM Sans", sans-serif;
+  --text-7-size: 1.8rem;
+  --text-7-weight: 400;
+  --text-7-height: 150%;
+  --text-7-spacing: -0.02rem;
+  /* TEXT PRESET 7 - SEMIBOLD */
+  --text-7-semibold-weight: 600;
+  /* TEXT PRESET 8 */
+  --text-8-family: "DM Sans", sans-serif;
+  --text-8-size: 1.6rem;
+  --text-8-weight: 400;
+  --text-8-height: 130%;
+  --text-8-spacing: -0.02rem;
+  /* TEXT PRESET 8 - SEMIBOLD */
+  --text-8-italic-style: italic;
+  /* TEXT PRESET 9 */
+  --text-9-family: "Fira Code", sans-serif;
+  --text-9-size: 1.6rem;
+  --text-9-weight: 400;
+  --text-9-height: 146%;
+  --text-9-spacing: -0.04rem;
+
+  /* PAGE */
+  /* COLORS */
+  /* LIGHT THEME */
+  --background-page-color: var(--neutral-100);
+  --background-header-color: var(--neutral-000);
+  --background-input-color: var(--neutral-000);
+  --background-input-color-hover: var(--neutral-200);
+  --background-btn-color: var(--neutral-000);
+  --background-btn-news-color: var(--blue-500);
+  --background-btn-color-hover: var(--neutral-200);
+  --background-btn-news-color-hover: var(--blue-700);
+  --border-color: var(--neutral-200);
+  --border-color-hover: var(--neutral-300);
+  --border-input-color: var(--neutral-300);
+  --border-error-color: var(--red-600);
+  --border-success-color: var(--green-700);
+  --text-title: var(--neutral-700);
+  --text-body: var(--neutral-600);
+  --text-label: var(--neutral-700);
+  --text-placeholder: var(--neutral-600);
+  --text-input: var(--neutral-700);
+  --text-error: var(--red-600);
+  --text-success: var(--green-700);
+  --text-news-btn: var(--neutral-900);
+  --underline-color: var(--blue-500);
+
+  /* DARK THEME */
+  --background-page-color-dark: var(--neutral-900);
+  --background-header-color-dark: var(--neutral-800);
+  --background-input-color-dark: var(--neutral-800);
+  --background-input-color-hover-dark: var(--neutral-700);
+  --background-btn-color-dark: var(--neutral-800);
+  --background-btn-color-hover-dark: var(--neutral-700);
+  --border-color-dark: var(--neutral-700);
+  --border-color-hover-dark: var(--neutral-600);
+  --border-input-color-dark: var(--neutral-600);
+  --border-error-color-dark: var(--red-400);
+  --border-success-color-dark: var(--green-500);
+  --text-title-dark: var(--neutral-000);
+  --text-body-dark: var(--neutral-400);
+  --text-label-dark: var(--neutral-000);
+  --text-placeholder-dark: var(--neutral-300);
+  --text-input-dark: var(--neutral-000);
+  --text-error-dark: var(--red-400);
+  --text-success-dark: var(--green-500);
+  --underline-color-dark: var(--blue-700);
+
+  /* ARTICLES */
+  --background-code-color: var(--neutral-200);
+  --text-caption: hsl(235, 15%, 35%);
+  --text-code: hsl(235, 15%, 35%);
+  --text-code-1: hsl(19, 100%, 50%);
+  --text-code-2: hsl(216, 97%, 54%);
+  --text-code-3: hsl(272, 100%, 61%);
+  --quote-border: var(--neutral-400);
+  --tip-background: var(--green-200);
+  --warning-background: var(--yellow-200);
+  --information-background: var(--blue-200);
+  --tip-border: var(--green-500);
+  --warning-border: var(--yellow-500);
+  --information-border: var(--blue-500);
+
+  --background-code-color-dark: var(--neutral-800);
+  --border-code-color-dark: var(--neutral-700);
+  --text-code-dark: hsl(0, 0%, 100%);
+  --text-code-1-dark: hsl(355, 96%, 70%);
+  --text-code-2-dark: hsl(192, 100%, 70%);
+  --text-code-3-dark: hsl(281, 80%, 76%);
+  --quote-border-dark: var(--neutral-600);
+  --tip-background-dark: var(--green-900);
+  --warning-background-dark: var(--yellow-900);
+  --information-background-dark: var(--blue-900);
+  --tip-border-dark: var(--green-700);
+  --warning-border-dark: var(--yellow-700);
+  --information-border-dark: var(--blue-700);
+}

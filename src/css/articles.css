@@ -1,0 +1,457 @@
+/* ARTICLE */
+
+.article {
+  max-width: 60rem;
+}
+
+/* ARTICLE TITLES */
+
+.article__title {
+  color: var(--text-title);
+  font-family: var(--text-1-family);
+  font-size: var(--text-1-size);
+  font-weight: var(--text-1-weight);
+  line-height: var(--text-1-height);
+  letter-spacing: var(--text-1-spacing);
+  margin-bottom: 1.2rem;
+}
+
+.article__date {
+  color: var(--text-body);
+  font-family: var(--text-8-family);
+  font-size: var(--text-8-size);
+  font-weight: var(--text-8-weight);
+  line-height: var(--text-8-height);
+  letter-spacing: var(--text-8-spacing);
+  font-style: var(--text-8-italic-style);
+  margin-bottom: 1.2rem;
+}
+
+.article h2 {
+  color: var(--text-title);
+  font-family: var(--text-2-family);
+  font-size: var(--text-2-size);
+  font-weight: var(--text-2-weight);
+  line-height: var(--text-2-height);
+  letter-spacing: var(--text-2-spacing);
+  margin-bottom: 1.2rem;
+}
+
+.article h3 {
+  color: var(--text-title);
+  font-family: var(--text-3-family);
+  font-size: var(--text-3-size);
+  font-weight: var(--text-3-weight);
+  line-height: var(--text-3-height);
+  letter-spacing: var(--text-3-spacing);
+  margin-bottom: 1.2rem;
+}
+
+.article h4 {
+  color: var(--text-title);
+  font-family: var(--text-4-family);
+  font-size: var(--text-4-size);
+  font-weight: var(--text-4-weight);
+  line-height: var(--text-4-height);
+  letter-spacing: var(--text-4-spacing);
+  margin-bottom: 1.2rem;
+}
+
+.article h5 {
+  color: var(--text-title);
+  font-family: var(--text-5-family);
+  font-size: var(--text-5-size);
+  font-weight: var(--text-5-weight);
+  line-height: var(--text-5-height);
+  letter-spacing: var(--text-5-spacing);
+  margin-bottom: 1.2rem;
+}
+
+.article h6 {
+  color: var(--text-title);
+  font-family: var(--text-6-family);
+  font-size: var(--text-6-size);
+  font-weight: var(--text-6-weight);
+  line-height: var(--text-6-height);
+  letter-spacing: var(--text-6-spacing);
+  margin-bottom: 1.2rem;
+}
+
+/* ARTICLE PARAGRAPH */
+
+.article p {
+  color: var(--text-body);
+  font-family: var(--text-7-family);
+  font-size: var(--text-7-size);
+  font-weight: var(--text-7-weight);
+  line-height: var(--text-7-height);
+  letter-spacing: var(--text-7-spacing);
+  margin-bottom: 1.2rem;
+}
+
+/* ARTICLE LISTS */
+
+.article ul {
+  padding-left: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+.article ol {
+  margin-bottom: 1.2rem;
+}
+
+.article ul li {
+  list-style: disc;
+  color: var(--text-body);
+  font-family: var(--text-7-family);
+  font-size: var(--text-7-size);
+  font-weight: var(--text-7-weight);
+  line-height: var(--text-7-height);
+  letter-spacing: var(--text-7-spacing);
+}
+
+.article ol li {
+  list-style: decimal;
+  color: var(--text-body);
+  font-family: var(--text-7-family);
+  font-size: var(--text-7-size);
+  font-weight: var(--text-7-weight);
+  line-height: var(--text-7-height);
+  letter-spacing: var(--text-7-spacing);
+}
+
+.article li::marker {
+  color: var(--text-body);
+  font-family: var(--text-7-family);
+  font-size: var(--text-7-size);
+  font-weight: var(--text-7-weight);
+  line-height: var(--text-7-height);
+  letter-spacing: var(--text-7-spacing);
+}
+
+/* ARTICLE DIVIDER */
+
+.article hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 1em 0;
+  padding: 0;
+  margin: 2.4rem 0;
+}
+
+/* ARTICLE CODE AND PRE-CODE */
+
+.article pre[class*="language-"],
+.article pre {
+  margin-bottom: 1.2rem;
+  white-space: pre-wrap;
+  border-radius: 1.2rem;
+}
+
+.article code[class*="language-"],
+.article pre[class*="language-"] {
+  color: var(--text-code);
+  font-family: var(--text-9-family);
+  font-size: var(--text-9-size);
+  font-weight: var(--text-9-weight);
+  line-height: var(--text-9-height);
+  letter-spacing: var(--text-9-spacing);
+}
+
+.article .language-css code,
+.article :not(pre) > .language-css:last-child {
+  color: var(--text-code-1);
+}
+
+.article :not(pre) > .language-css:nth-child(2) {
+  color: #690;
+}
+
+.article :not(pre) > code[class*="language-"],
+.article pre[class*="language-"] {
+  background: var(--background-code-color);
+}
+
+.article :not(pre) > code[class*="language-"] {
+  border-radius: 0.4rem;
+}
+
+.article .token.tag,
+.article .token.boolean,
+.article .token.number,
+.article .token.constant,
+.article .token.symbol,
+.article .token.deleted,
+.article .token.punctuation {
+  color: var(--text-code-1);
+}
+
+.article .token.property,
+.article .token.property + .token.punctuation {
+  color: var(--text-code-2);
+}
+
+.article .token.punctuation.attr-equals {
+  color: var(--text-code);
+}
+
+.article .token.attr-name {
+  color: var(--text-code-3);
+}
+
+.article .token.punctuation.attr-equals + .token.punctuation,
+.article
+  .token.punctuation.attr-equals
+  + .token.punctuation
+  + .token.punctuation,
+.article .attr-value {
+  color: var(--text-code-2);
+}
+
+.token.operator {
+  background: none;
+}
+
+/* ARTICLE QUOTE */
+
+.article blockquote:not([class]) {
+  color: var(--text-title);
+  border-left: 0.4rem solid var(--quote-border);
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ARTICLE CALLOUT */
+
+.article .callout {
+  padding: 1.2rem 1.2rem 1.2rem 4rem;
+  border-radius: 1.2rem;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.article .callout strong {
+  color: var(--text-title);
+  font-family: var(--text-5-family);
+  font-size: var(--text-5-size);
+  font-weight: var(--text-5-weight);
+  line-height: var(--text-5-height);
+  letter-spacing: var(--text-5-spacing);
+}
+
+.article .callout.tip {
+  background-color: var(--tip-background);
+  border: 0.1rem solid var(--tip-border);
+}
+
+.article .callout.tip::before {
+  content: url(../assets/images/icon-tip.svg);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.2rem;
+}
+
+.article .callout.warning {
+  background-color: var(--warning-background);
+  border: 0.1rem solid var(--warning-border);
+}
+
+.article .callout.warning::before {
+  content: url(../assets/images/icon-warning.svg);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.2rem;
+}
+
+.article .callout.information {
+  background-color: var(--information-background);
+  border: 0.1rem solid var(--information-border);
+}
+
+.article .callout.information::before {
+  content: url(../assets/images/icon-info.svg);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.2rem;
+}
+
+/* ARTICLE LINKS */
+
+.article a {
+  text-decoration: underline var(--underline-color) 0.3rem;
+}
+
+/* ARTICLE IMG */
+
+.article img {
+  width: 100%;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.article figcaption {
+  text-align: center;
+  color: var(--text-caption);
+  font-family: var(--text-8-family);
+  font-size: var(--text-8-size);
+  font-weight: var(--text-8-weight);
+  line-height: var(--text-8-height);
+  letter-spacing: var(--text-8-spacing);
+  margin-bottom: 1.2rem;
+}
+
+/* ARTICLE TABLES */
+
+.article td,
+.article th {
+  border: 1px solid var(--border-color);
+  padding: 0.6rem 1.8rem;
+}
+
+.article table {
+  border-collapse: collapse;
+  border-radius: 0.8rem;
+  border-style: hidden;
+  box-shadow: 0rem 0rem 0rem 0.1rem var(--border-color);
+  margin-bottom: 1.2rem;
+}
+
+.article th {
+  color: var(--text-title);
+  font-family: var(--text-6-family);
+  font-size: var(--text-6-size);
+  font-weight: var(--text-6-weight);
+  line-height: var(--text-6-height);
+  letter-spacing: var(--text-6-spacing);
+  text-align: left;
+}
+
+.article td {
+  color: var(--text-body);
+  font-family: var(--text-8-family);
+  font-size: var(--text-8-size);
+  font-weight: var(--text-8-weight);
+  line-height: var(--text-8-height);
+  letter-spacing: var(--text-8-spacing);
+}
+
+/* ARTICLE DARK */
+
+.dark .article__title,
+.dark .article h2,
+.dark .article h3,
+.dark .article h4,
+.dark .article h5,
+.dark .article h6,
+.dark .article blockquote:not([class]),
+.dark .article .callout strong,
+.dark .article th {
+  color: var(--text-title-dark);
+}
+
+.dark .article__date,
+.dark .article p,
+.dark .article ul li,
+.dark .article ol li,
+.dark .article li::marker,
+.dark .article td {
+  color: var(--text-body-dark);
+}
+
+.dark .article hr {
+  border-top: 1px solid var(--border-color-dark);
+}
+
+.dark .article code[class*="language-"],
+.dark .article pre[class*="language-"],
+.dark .article .token.punctuation.attr-equals {
+  color: var(--text-code-dark);
+  text-shadow: 0 0.1rem black;
+}
+
+.dark .article .language-css code,
+.dark .article :not(pre) > .language-css:last-child,
+.dark .article .token.tag,
+.dark .article .token.boolean,
+.dark .article .token.number,
+.dark .article .token.constant,
+.dark .article .token.symbol,
+.dark .article .token.deleted,
+.dark .article .token.punctuation {
+  color: var(--text-code-1-dark);
+}
+
+.dark .article .token.property,
+.dark .article .token.property + .token.punctuation,
+.dark .article .token.punctuation.attr-equals + .token.punctuation,
+.dark
+  .article
+  .token.punctuation.attr-equals
+  + .token.punctuation
+  + .token.punctuation,
+.dark .article .attr-value {
+  color: var(--text-code-2-dark);
+}
+
+.dark .article .token.attr-name {
+  color: var(--text-code-3-dark);
+}
+
+.dark .article :not(pre) > code[class*="language-"],
+.dark .article pre[class*="language-"] {
+  background: var(--background-code-color-dark);
+}
+
+.dark .article pre[class*="language-"] {
+  border: 0.1rem solid var(--border-code-color-dark);
+}
+
+.dark .article :not(pre) > .language-css:nth-child(2) {
+  color: #690;
+}
+
+.dark .article blockquote:not([class]) {
+  border-left: 0.4rem solid var(--quote-border-dark);
+}
+
+.dark .article .callout.tip {
+  background-color: var(--tip-background-dark);
+  border: 0.1rem solid var(--tip-border-dark);
+}
+
+.dark .article .callout.warning {
+  background-color: var(--warning-background-dark);
+  border: 0.1rem solid var(--warning-border-dark);
+}
+
+.dark .article .callout.information {
+  background-color: var(--information-background-dark);
+  border: 0.1rem solid var(--information-border-dark);
+}
+
+.dark .article a {
+  text-decoration: underline var(--underline-color-dark) 0.3rem;
+}
+
+.dark .article td,
+.dark .article th {
+  border: 1px solid var(--border-color-dark);
+}
+
+.dark .article table {
+  box-shadow: 0rem 0rem 0rem 0.1rem var(--border-color-dark);
+}
+
+/* ARTICLE HOVER & FOCUS */
+
+.article a:hover {
+  opacity: 70%;
+}
+
+.article a:focus {
+  box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-100),
+    0rem 0rem 0rem 0.4rem var(--blue-800);
+  border-radius: 0.4rem;
+}

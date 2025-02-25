@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/hover-focus.css" />
+    <link rel="stylesheet" href="./src/css/dark-theme.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Personal blog - About me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Personal blog - About me challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, coding, front-end, challenge, projects"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="English" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <div class="background before"></div>
+
+    <header class="header">
+      <a href="./index.html" class="header__avatar-link">
+        <img
+          src="./src/assets/images/image-avatar.jpg"
+          alt="My photo"
+          class="header__avatar"
+          title="My personal blog"
+        />
+      </a>
+
+      <button id="hamburger-button">
+        <img src="./src/assets/images/icon-menu.svg" alt="Menu" />
+      </button>
+
+      <nav class="header__navbar">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="./index.html" class="header__item-link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="./blog.html" class="header__item-link">Blog</a>
+          </li>
+          <li class="header__item">
+            <a href="./about.html" class="header__item-link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="./newsletter.html" class="header__item-link">Newsletter</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__toggle">
+        <img
+          src="./src/assets/images/icon-moon.svg"
+          alt="Change theme dark/light"
+          title="Change theme dark/light"
+          class="header__toggle-img"
+        />
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="about">
+        <h1 class="about__title">About Me</h1>
+        <p class="about__text">
+          Hi, I'm Paulina! Ever since I can remember, I've had a passion for
+          creativity and problem-solving. That's what led me to the world of
+          front-end web development. There's something magical about seeing an
+          idea come to life in the browser—whether it's a simple layout
+          experiment or a complex interface for a bigger project.
+        </p>
+        <p class="about__text">
+          When I'm not coding, I love getting lost in a good book. My taste is
+          pretty eclectic: I'll happily read everything from fantasy novels to
+          biographies of tech pioneers. Reading helps me unwind and often sparks
+          new ideas for my coding projects.
+        </p>
+        <p class="about__text">
+          Another big passion of mine is the great outdoors. Hiking allows me to
+          disconnect from the digital world and reconnect with nature. I love
+          challenging hikes with rewarding views at the top. And if I'm not on
+          the trails, you might catch me rock climbing. The combination of
+          mental focus and physical endurance is a perfect parallel to tackling
+          tough coding challenges!
+        </p>
+        <p class="about__text">Some of my favorite books:</p>
+        <ul class="about__list">
+          <li class="about__item">
+            <span>“The Pragmatic Programmer”</span> by Andrew Hunt and David
+            Thomas (for helpful insights into software development)
+          </li>
+          <li class="about__item">
+            <span>“Ready Player One”</span> by Ernest Cline (for some futuristic
+            escapism)
+          </li>
+          <li class="about__item">
+            <span>“The Hobbit”</span> by J.R.R. Tolkien (for a bit of fantasy
+            fun)
+          </li>
+          <li class="about__item">
+            <span>“Educated”</span> by Tara Westover (for incredible
+            inspiration)
+          </li>
+        </ul>
+        <p class="about__text">
+          I absolutely love my workspace as a place that inspires me to do my
+          best work, so I thought I'd share it with you:
+        </p>
+        <picture class="about__pic">
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/images/image-workspace-small.jpg"
+          />
+          <img
+            src="./src/assets/images/image-workspace-large.jpg"
+            alt="My workspace"
+            class="about__img"
+          />
+        </picture>
+        <p class="about__text">
+          I hope this blog not only documents my growth but also helps others
+          see that coding can be for everyone. Thanks for joining me on this
+          journey!
+        </p>
+        <h2 class="about__socials">Follow me</h2>
+        <ul class="about__socials-list">
+          <li class="about__socials-item">
+            <a href="#X" class="about__socials-item-link">
+              <img
+                src="./src/assets/images/logo-x.svg"
+                alt="My X/Twitter page"
+                class="about__social"
+              />
+            </a>
+          </li>
+          <li class="about__socials-item">
+            <a href="#GitHub" class="about__socials-item-link">
+              <img
+                src="./src/assets/images/logo-github.svg"
+                alt="My GitHub page"
+                class="about__social"
+              />
+            </a>
+          </li>
+          <li class="about__socials-item">
+            <a href="#Linkedin" class="about__socials-item-link">
+              <img
+                src="./src/assets/images/logo-linkedin.svg"
+                alt="My Linkedin page"
+                class="about__social"
+              />
+            </a>
+          </li>
+          <li class="about__socials-item">
+            <a href="#FrontendMentor" class="about__socials-item-link">
+              <img
+                src="./src/assets/images/logo-frontend-mentor.svg"
+                alt="My Frontend Mentor page"
+                class="about__social"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Made with ❤️ and ☕</p>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="#X" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-x.svg"
+              alt="My X/Twitter page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#GitHub" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-github.svg"
+              alt="My GitHub page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#Linkedin" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-linkedin.svg"
+              alt="My Linkedin page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#FrontendMentor" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-frontend-mentor.svg"
+              alt="My Frontend Mentor page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="attribution__link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://xuaun.github.io/"
+          target="_blank"
+          class="attribution__link"
+          >João Víctor de Araujo Lima</a
+        >.
+      </div>
+    </footer>
+
+    <div class="background after"></div>
+
+    <script type="module" src="./src/script/dark-theme.js"></script>
+    <script type="module" src="./src/script/menu.js"></script>
+  </body>
+</html>

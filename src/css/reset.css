@@ -1,0 +1,112 @@
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+/* p {
+  text-wrap: pretty;
+} */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+} */
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* 10. Reset btn and a */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 11. Reset input */
+input {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+input[type="text"] {
+  cursor: text;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* 12. Reset lists */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* 13. Reset focus */
+*:focus {
+  outline: none;
+}

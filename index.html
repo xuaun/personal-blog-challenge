@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/hover-focus.css" />
+    <link rel="stylesheet" href="./src/css/dark-theme.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Personal blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Personal blog challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, coding, front-end, challenge, projects"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="English" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <div class="background before"></div>
+
+    <header class="header">
+      <a href="./index.html" class="header__avatar-link">
+        <img
+          src="./src/assets/images/image-avatar.jpg"
+          alt="My photo"
+          class="header__avatar"
+          title="My personal blog"
+        />
+      </a>
+
+      <button id="hamburger-button">
+        <img src="./src/assets/images/icon-menu.svg" alt="Menu" />
+      </button>
+
+      <nav class="header__navbar">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="./index.html" class="header__item-link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="./blog.html" class="header__item-link">Blog</a>
+          </li>
+          <li class="header__item">
+            <a href="./about.html" class="header__item-link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="./newsletter.html" class="header__item-link">Newsletter</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__toggle">
+        <img
+          src="./src/assets/images/icon-moon.svg"
+          alt="Change theme dark/light"
+          title="Change theme dark/light"
+          class="header__toggle-img"
+        />
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <h1 class="intro__title">Hi, I'm Paulina 👋</h1>
+        <p class="intro__text">
+          I'm on a journey to become a front-end web developer. I love building
+          little projects, trying out new coding techniques, and sharing what I
+          learn along the way. When I'm not at my desk, you'll find me reading,
+          hiking through the mountains, or challenging myself on rock-climbing
+          walls.
+        </p>
+        <p class="intro__text">
+          I started this blog to document my progress, keep myself accountable,
+          and hopefully inspire anyone else who's learning to code. Welcome to
+          my corner of the internet, and thanks for stopping by!
+        </p>
+        <ul class="intro__list">
+          <li class="intro__item">
+            <a href="#X" class="intro__item-link">
+              <img
+                src="./src/assets/images/logo-x.svg"
+                alt="My X/Twitter page"
+                class="intro__social"
+              />
+            </a>
+          </li>
+          <li class="intro__item">
+            <a href="#GitHub" class="intro__item-link">
+              <img
+                src="./src/assets/images/logo-github.svg"
+                alt="My GitHub page"
+                class="intro__social"
+              />
+            </a>
+          </li>
+          <li class="intro__item">
+            <a href="#Linkedin" class="intro__item-link">
+              <img
+                src="./src/assets/images/logo-linkedin.svg"
+                alt="My Linkedin page"
+                class="intro__social"
+              />
+            </a>
+          </li>
+          <li class="intro__item">
+            <a href="#FrontendMentor" class="intro__item-link">
+              <img
+                src="./src/assets/images/logo-frontend-mentor.svg"
+                alt="My Frontend Mentor page"
+                class="intro__social"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="articles">
+        <h2 class="articles__title">Latest Articles</h2>
+
+        <div class="articles__latest"></div>
+
+        <p class="articles__text">
+          <a href="./blog.html" class="articles__link">View all articles</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Made with ❤️ and ☕</p>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="#X" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-x.svg"
+              alt="My X/Twitter page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#GitHub" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-github.svg"
+              alt="My GitHub page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#Linkedin" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-linkedin.svg"
+              alt="My Linkedin page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#FrontendMentor" class="footer__item-link">
+            <img
+              src="./src/assets/images/logo-frontend-mentor.svg"
+              alt="My Frontend Mentor page"
+              class="footer__social"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="attribution__link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://xuaun.github.io/"
+          target="_blank"
+          class="attribution__link"
+          >João Víctor de Araujo Lima</a
+        >.
+      </div>
+    </footer>
+
+    <div class="background after"></div>
+
+    <script type="module" src="./src/script/dark-theme.js"></script>
+    <script type="text/javascript" src="./src/script/blog.js"></script>
+    <script type="module" src="./src/script/menu.js"></script>
+  </body>
+</html>

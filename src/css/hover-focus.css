@@ -1,0 +1,78 @@
+/* HOVER */
+
+.header__item:hover {
+  text-decoration: underline var(--underline-color) 0.3rem;
+}
+
+.header__toggle:hover {
+  border: 0.1rem solid var(--border-color-hover);
+  background-color: var(--background-btn-color-hover);
+}
+
+.intro__social:hover,
+.about__social:hover {
+  background-color: var(--background-btn-color-hover);
+  border: 0.1rem solid var(--border-color-hover);
+}
+
+.footer__social:hover,
+.articles__text:hover,
+.articles__article-title:hover,
+.blog__article-title:hover {
+  opacity: 70%;
+}
+
+.articles__article-title:hover,
+.blog__article-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.newsletter__input:hover {
+  background-color: var(--background-input-color-hover);
+}
+
+#newsletter__submit:hover {
+  background-color: var(--background-btn-news-color-hover);
+}
+
+/* FOCUS */
+
+.header__avatar-link:focus,
+.header__toggle:focus,
+.intro__item-link:focus .intro__social,
+.footer__item-link:focus .footer__social,
+.articles__link:focus,
+.about__socials-item-link:focus .about__social {
+  box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-100),
+    0rem 0rem 0rem 0.4rem var(--blue-800);
+}
+
+.header__avatar-link:focus {
+  border-radius: 1rem;
+}
+
+.footer__item-link:focus .footer__social {
+  border-radius: 0.2rem;
+}
+
+.articles__link:focus,
+.articles__article-link:focus {
+  border-radius: 0.8rem;
+}
+
+.header__item-link:focus {
+  box-shadow: 0rem 0rem 0rem 0.2rem #fefefe,
+    0rem 0rem 0rem 0.4rem var(--blue-800);
+  border-radius: 0.4rem;
+}
+
+.newsletter__input:focus {
+  box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-100),
+    0rem 0rem 0rem 0.4rem var(--blue-800);
+}
+
+#newsletter__submit:focus {
+  box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-000),
+    0rem 0rem 0rem 0.4rem var(--blue-800);
+}
