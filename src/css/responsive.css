@@ -136,6 +136,7 @@
     font-weight: var(--text-7-weight);
     line-height: var(--text-7-height);
     letter-spacing: var(--text-7-spacing);
+    display: block;
   }
 
   .header__item-link.active {
